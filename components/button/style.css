@@ -1,0 +1,88 @@
+@import url('../../color.css');
+
+*{
+ 
+    padding: 0px;
+	margin: 0px;
+	border: 0px;
+
+}
+
+
+html,
+body {
+	height: 100%;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 19px;
+    
+	
+}
+.wrapper{
+    width: 100%;
+	min-height: 100%;
+	overflow: hidden;
+	display: flex;
+	flex-direction: column;
+   
+}
+
+/* main styles */
+
+.btns{
+    padding: 20px;
+}
+
+.button{
+    font-family: inherit;
+    padding: 0px 16px;
+    min-height: 42px;
+    border-radius: 4px;
+    background-color: var(--bg-primaryDefault);
+    color: var(--font-secondary);
+    box-sizing: border-box;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    border: none;
+}
+.button-cancel{
+    background-color: var(--bg-secondary);
+    color: var(--font-primaryDefault);
+    border: 1px solid var(--font-primaryDefault);
+}
+
+.button-disable{
+    background-color: var(--bg-disabled);
+    color: var(--font-primaryDefault);
+   
+}
+
+
+.button-nav {
+    border: 1px solid var(--font-secondary);
+   
+}
+
+.button-nav:hover {
+    background-color: var(--font-secondary);
+    color: var(--font-primaryDefault);
+}
+
+.button-nav.active{
+    background-color: var(--font-secondary);
+    color: var(--font-primaryDefault);
+}
+
+
+.button-addittionaly{
+   
+    padding: 14.5px 19.5px;
+    border: 1px solid var(--border-default);
+    border-radius: 4px;
+    background-color: var( --bg-secondary);
+}
+
+

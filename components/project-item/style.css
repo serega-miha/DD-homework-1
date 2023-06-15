@@ -1,0 +1,106 @@
+@import url('../../color.css');
+@import url('../../components/button/style.css');
+
+* {
+
+    padding: 0px;
+    margin: 0px;
+    border: 0px;
+
+}
+
+
+html,
+body {
+    height: 100%;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 19px;
+
+
+}
+
+.wrapper {
+    width: 100%;
+    min-height: 100%;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+
+}
+
+/* main styles */
+
+
+
+.project-items-container {
+    margin: 20px;
+  }
+  
+.project-item {
+position: relative;
+margin: 20px 0;
+padding: 0px 20px;
+display: flex;
+align-items: center;
+cursor: pointer;
+}
+.project-item::after {
+content: "";
+position: absolute;
+bottom: -10px;
+left: 0;
+height: 1px;
+width: 100%;
+background-color: var( --border-default);
+}
+.project-item:hover .project-item__addittionaly {
+display: block;
+margin: 0px 10px;
+}
+.project-item .project-item__addittionaly {
+display: none;
+
+}
+.project-item-main{
+    width: 100%;
+}
+
+
+.project-item__title p {
+min-height: 2.8em;
+overflow: hidden;
+display: -webkit-box;
+-webkit-line-clamp: 2;
+/* number of lines to show */
+line-clamp: 2;
+-webkit-box-orient: vertical;
+}
+
+.project-item__body {
+display: flex;
+}
+
+.project-item__body-id {
+margin: 0px 10px 0px 0px;
+}
+.project-item__body-id p {
+max-width: 387px;
+overflow: hidden;
+text-overflow: ellipsis;
+white-space: nowrap;
+}
+
+.project-item__body-create {
+flex: 1 1 auto;
+margin: 0 10px;
+color: var(--font-disabled);
+}
+
+.project-item__body-update {
+color: var(--font-disabled);
+padding: 0px 20px 0px 0px;
+}
+  

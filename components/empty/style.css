@@ -1,0 +1,68 @@
+@import url('../../color.css');
+@import url('../../components/button/style.css');
+
+*{
+ 
+    padding: 0px;
+	margin: 0px;
+	border: 0px;
+
+}
+
+
+html,
+body {
+	height: 100%;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 19px;
+    
+	
+}
+.wrapper{
+    width: 100%;
+	min-height: 100%;
+	overflow: hidden;
+	display: flex;
+	flex-direction: column;
+   
+}
+
+/* main styles */
+
+.empty {
+    flex: 1 1 auto;
+    background-color: white;
+    display: flex;
+}
+.empty-container {
+   flex: 1 1 auto;
+    margin: 24px;
+    border: 1px solid black;
+    
+    
+}
+.empty-projects {
+
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+
+}
+.empty-projects__body button {
+    margin: 10px  auto 0px auto;
+    
+    
+}
+
+
+
+
+
+
