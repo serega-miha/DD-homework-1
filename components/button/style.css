@@ -78,7 +78,7 @@ body {
 
 
 .button-addittionaly{
-   
+   cursor: pointer;
     padding: 14.5px 19.5px;
     border: 1px solid var(--border-default);
     border-radius: 4px;
